@@ -52,12 +52,11 @@
   }
   #mainNav .nav-link {
     -webkit-transition: none;
-    transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.35);
   }
   #mainNav .nav-link:active {
     color: white;
@@ -93,7 +92,7 @@
   min-height: 35rem;
   padding: 15rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -101,11 +100,11 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'Quicksand';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .4));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -113,6 +112,7 @@
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  color: rgba(255, 255, 255, 0.73)!important
 }
 
 @media (min-width: 768px) {
@@ -133,7 +133,7 @@
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
-    max-width: 30rem;
+    max-width: 40rem;
     font-size: 1.25rem;
   }
 }
@@ -307,4 +307,17 @@ footer {
 
 .header-links {
   margin:0 auto !important;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(0,0,0,.65);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.main-banner-content {
+  position: relative;
 }

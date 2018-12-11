@@ -6,6 +6,9 @@
 ul {
   list-style: none;
 }
+h1,h2,h3,h4,h5 {
+  font-family: 'Quicksand','Nunito',helvetica;
+}
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -349,4 +352,22 @@ footer {
   margin: 5px;
   min-width: 7%;
   color: #fff;
+}
+.links {
+  display: flex;
+  position: relative;
+  bottom: -35px;
+}
+.links div{
+  border:solid 1px #64a19d;
+  border-radius:4px;
+  text-align: center;
+  padding: 6px 10px;
+  margin: auto;
+}
+
+.links a {
+  font-size: .75em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }

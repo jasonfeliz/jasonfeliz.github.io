@@ -140,6 +140,10 @@ h1,h2,h3,h4,h5 {
     max-width: 40rem;
     font-size: 1.25rem;
   }
+  .img-fluid {
+    width:100% !important;
+    height:100% !important;
+  }
 }
 
 .btn {

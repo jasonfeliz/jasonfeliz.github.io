@@ -389,3 +389,8 @@ footer {
   font-weight: 200;
   margin-bottom: 50px;
 }
+
+.soon {
+  color:#64a19d;
+  text-transform: uppercase;
+}
